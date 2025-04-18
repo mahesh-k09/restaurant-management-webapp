@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+header {
+  background-color: #008080;
+  color: #fff;
+  padding: 20px 0;
+
+  text-align: center;
+}
+
+#logo {
+  font-size: 1.5em;
+}
+
+.vertical-nav {
+  width: 200px;
+  /* Adjust width as needed */
+  background-color:#008080;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.nav-links li {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nav-links li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: black;
+}
+
+.content {
+  margin-left: 220px;
+  /* Adjust based on the width of vertical-nav */
+  padding: 50px 20px;
+}
+
+.home-img{
+  background-image: url("https://b.zmtcdn.com/data/pictures/1/3431/0683127348c70eb1fe9f77308ac50d7a.jpg?fit=around|960:500&crop=960:500;*,*");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.food-img{
+  background-image: url("https://i.pinimg.com/736x/33/ef/8b/33ef8b9c0b902154a6cd4103a21275ef.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
